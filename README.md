@@ -42,14 +42,6 @@ curl -o data.zip "https://your-nextcloud-link/public.php/dav/files/TOKEN/?accept
 
 ## 4. Unzip the data
 
-Without password:
-
-```bash
-unzip *.zip
-```
-
-With password:
-
 ```bash
 unzip -P 'your_password_here' *.zip
 ```
@@ -72,13 +64,13 @@ ls /path/to/nested/folder/
 mv /path/to/nested/folder/* /path/to/your/target/directory/
 
 # Remove empty nested directories
-rm -r /path/to/top-level-nested-folder/
+rm -rf /path/to/top-level-nested-folder/
 ```
 
 ## 6. (Optional) Remove the ZIP file
 
 ```bash
-rm *.zip
+rm -rf *.zip
 ```
 
 ## 7. Detach and kill tmux session
