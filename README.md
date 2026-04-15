@@ -15,7 +15,7 @@ tmux new -s download
 ## 2. Navigate to target directory
 
 ```bash
-cd /path/to/your/target/directory
+cd /path/to/your/target/directory  #e.g- /net/beegfs/groups/thijssen-lab/
 ```
 
 ## 3. Download from Nextcloud
