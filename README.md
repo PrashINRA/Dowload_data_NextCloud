@@ -49,7 +49,7 @@ unzip -P 'your_password_here' *.zip
 You can chain download and unzip so it runs automatically:
 
 ```bash
-wget --content-disposition "LINK" && unzip -P 'your_password_here' *.zip
+wget -O your_data.zip "LinK" && unzip -P 'Password' your_data.zip
 ```
 
 ## 5. Organize files
